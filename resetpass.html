@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>بورصة الدواجن</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Start navbar -->
+    <nav class="our-navbar navbar-expand-lg navbar navbar-light">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html">
+                <img src="images/logo.svg" alt="logo" />
+            </a>
+            <button class="navbar-toggler button-nav" type="button" data-toggle="collapse"
+                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav nav-ul">
+                    <li class="nav-item">
+                        <a href="index.html">
+                            <img src="images/home.svg" alt="home" />
+                            <span class="nav-link">الرئيسية</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="search.html">
+                            <img src="images/search.svg" alt="home" />
+                            <span class="nav-link">بحث</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            الأقسام
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">فراخ أبيض</a>
+                            <a class="dropdown-item" href="#">فراخ ساسو</a>
+                            <a class="dropdown-item" href="#">بط مسكوفى</a>
+                            <a class="dropdown-item" href="#">بط مولار</a>
+                            <a class="dropdown-item" href="#">رومى أسمر</a>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="login" href="login.html">
+                            <span class="nav-link">حساب جديد | دخول</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-ul">
+                    <li class="nav-item dropdown logout">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown">
+                            <img src="images/pexels-photo-220453@2x.png" alt="" />
+                        </a>
+                        <div class="dropdown-menu our-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="edit.html">تعديل الحساب</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="product.html">منتجاتي</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="login.html">تسجيل الخروج</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- Start sidebar -->
+    <div class="our-sidebar sidebar-folded">
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-toggler not-active">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="sidebar-body">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="members.html" class="nav-link">
+                            <i class="link-icon" data-feather="users"></i>
+                            <span class="link-title">إدارة أعضاء</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="manigpro.html" class="nav-link">
+                            <i class="link-icon" data-feather="truck"></i>
+                            <span class="link-title">إدارة منتجات</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="mainproduct.html" class="nav-link">
+                            <i class="link-icon" data-feather="shopping-cart"></i>
+                            <span class="link-title">منتجات أساسية</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="adminaccounts.html" class="nav-link">
+                            <i class="link-icon" data-feather="database"></i>
+                            <span class="link-title">الحسابات الإدارية</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="adminlogin.html" class="nav-link">
+                            <i class="link-icon" data-feather="unlock"></i>
+                            <span class="link-title">تسجيل الدخول</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- End sidebar -->
+
+    <!-- Start reset password -->
+    <div class="reset text-center">
+        <div class="container">
+            <h2 class="text-center">إعادة تعيين كلمة المرور</h2>
+            <span class="line"></span>
+            <p>أدخل رقم الموبايل المسجل لدينا <br> لإرسال كود إعادة تعيين كلمة المرور</p>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="رقم الموبايل" id="exampleInputEmail1">
+                </div>
+                <button type="submit" class="btn">إعادة تعيين كلمة المرور</button>
+            </form>
+        </div>
+    </div>
+    <!-- Start reset password -->
+
+    <!-- Start contact us -->
+    <div class="contact text-center">
+        <div class="container">
+            <div class="contain-logo">
+                <img src="images/logo2.svg" alt="01" />
+            </div>
+            <div class="contain-social">
+                <ul>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
+            <div class="contain-rule">
+                <ul>
+                    <li><a href="policy.html">سياسة الخصوصية | </a></li>
+                    <li><a href="terms.html">شروط الخدمة | </a></li>
+                    <li><a href="contact.html">تواصل معنا | </a></li>
+                    <li><a href="us.html">من نحن</a></li>
+                </ul>
+            </div>
+            <div class="play">
+                <a href="#">
+                    <img src="images/متوفر-على-googleplay.png" alt="play" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End contact us -->
+
+    <!-- Start footer -->
+    <footer class="text-center">
+        بورصة الدواجن <bdi>2020 All rights reserved | </bdi>
+    </footer>
+    <!-- End footer -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/feather.min.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/plugin.js"></script>
+</body>
+
+</html>
